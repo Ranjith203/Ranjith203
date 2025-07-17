@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a007a;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  font-size: 2.2rem;
+  color: #8c0698;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #8c0698;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f3e5f5;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #f3e5f5, #f8e3fc);
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #8c0698;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.shop-now {
+  background-color: #8c0698;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+  background-color: #4a007a;
+}
+
+/* Product Section */
+.products {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.products h2 {
+  font-size: 2rem;
+  color: #8c0698;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.product-card:hover {
+  border: 2px solid #8c0698;
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #eed0f3;
+  border-top: 1px solid #ddd;
+  color: #4a007a;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #8c0698;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Login Page Styling */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #f8f1fa;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(140, 6, 152, 0.2);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #8c0698;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8c0698;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #4a007a;
+}
+
+#errorMsg {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Visually Hidden Class for Accessibility */
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

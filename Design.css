@@ -1,0 +1,105 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #ffffff; /* White background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #8a0584; /* Deep purple text */
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #8a0584;
+}
+
+/* Navigation bar styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #8a0584; /* Purple nav bar */
+  padding: 12px 0;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White nav links */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #8a0584; /* Lighter purple on hover */
+    color: #ffffff; /* Keep text white on hover */
+}
+
+/* Search form styling */
+form[role="search"] {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form input[type="text"] {
+  padding: 10px 14px;
+  width: 260px;
+  border: 2px solid #8a0584;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #8a0584;
+  background-color: #ffffff;
+}
+
+form input[type="text"]::placeholder {
+  color: #9c27b0;
+}
+
+form button {
+  padding: 10px 18px;
+  background-color: #8a0584;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8a0584;
+}
+
+/* Accessibility helper */
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
