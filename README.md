@@ -1,6 +1,7 @@
 ## Hi there 👋 
 ## This is Ranjith!
 ## - 🌱 I’m currently learning Java and ReactJS...
+## - 😊Looking for jobs
 ## - 💬 You can reach me @ranjith2302@gmail.com ...
 
 <!--
